@@ -8,7 +8,8 @@ public class Program1 {
 		System.out.println("Enter a string:");
 		str=sc.next();
 		sc.close();
-		for(i=0;i<str.length()/2;i++) {
+		for(i=0;i<str.length()/2;i++) 
+		{
 			if(str.charAt(i)==str.charAt(str.length()-i-1))
 				c++;
 			else
